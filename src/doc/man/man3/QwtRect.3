@@ -1,0 +1,58 @@
+.TH "QwtRect" 3 "24 May 2008" "Version 5.1.1" "Qwt User's Guide" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+QwtRect \- 
+.SH SYNOPSIS
+.br
+.PP
+.SH "Detailed Description"
+.PP 
+Some extensions for QRect 
+.PP
+\fBDeprecated\fP
+.RS 4
+Use \fBQwtClipper\fP instead. 
+.RE
+.PP
+
+.PP
+Definition at line 22 of file qwt_rect.h.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBQwtRect\fP ()"
+.br
+.ti -1c
+.RI "\fBQwtRect\fP (const QRect &r)"
+.br
+.ti -1c
+.RI "QwtPolygon \fBclip\fP (const QwtPolygon &) const"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "QwtRect::QwtRect ()"
+.PP
+Constructor. 
+.PP
+Definition at line 14 of file qwt_rect.cpp.
+.SS "QwtRect::QwtRect (const QRect & r)"
+.PP
+Copy constructor. 
+.PP
+Definition at line 20 of file qwt_rect.cpp.
+.SH "Member Function Documentation"
+.PP 
+.SS "QwtPolygon QwtRect::clip (const QwtPolygon &) const"
+.PP
+Sutherland-Hodgman polygon clipping. 
+.PP
+Definition at line 26 of file qwt_rect.cpp.
+.PP
+References QwtClipper::clipPolygon().
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Qwt User's Guide from the source code.
